@@ -1,0 +1,31 @@
+.TH hsh "1" "15 August 2019" "0.01" "simple_shell man page"
+.SH NAME
+hsh - Our recreation of shell, the standard command language interpreter
+.SH SYNOPSIS
+\fBhsh\fR [options] [file]
+.SH DESCRIPTION
+\fBhsh\fR is a recreation of \fBsh\fR, which is a command language interpreter that shell execute commands read from a command line string, the standard input, or a specified file.
+
+Pathname expansion shall not fail due to size of a file.
+
+Input and output redirections have an implementation-defined offset maximum established in open file description.
+.SH OPERANDS
+Following operands shall be supported:
+.TP
+.B
+.SH STDIN
+.SH INPUT FILES
+.SH ENVIRONMENT VALIABLES
+.SH STDOUT
+.SH STDERR
+.SH OUTPUT FILES
+.SH EXIT STATUS
+.SH EXAMPLES
+To print a character:
+
+   #include "holberton.h"
+   _printf("%c", character);
+
+.SH SEE ALSO
+.SH AUTHOR
+Mitchell Moscovics, Benjamin Quinones Burgos
