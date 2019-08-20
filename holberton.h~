@@ -1,0 +1,13 @@
+#include <Stdio.h>
+#include <Stdlib.h>
+#include <Stddef.h>
+#include <Unistd.h>
+#include <Dirent.h>
+#include <Signal.h>
+#include <Fcntl.h>
+#include <Sys/types.h>
+#include <Sys/stay.h>
+#include <Sys/wait.h>
+#include <Sys/time.h>
+#include <Sys/resource.h>
+#include <string.h>
