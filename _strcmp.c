@@ -1,9 +1,9 @@
-#include "string.h"
+#include "holberton.h"
 /**
  *_strcmp - cmp 2 string
  *@s1:first string
  *@s2:second string
- *Return:dif 
+ *Return:dif
  */
 int _strcmp(const char *s1, const char *s2)
 {
