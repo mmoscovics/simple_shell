@@ -4,10 +4,11 @@
  * _execute - execute command if found
  * @cmdpath: correct path with command
  * @cmdargs: arguments passed from parsing
+ * @envp: environment pointer
  * Return: 0 or 1 on error
  */
 
-int _execute(char *cmdpath, char **cmdargs)
+int _execute(char *cmdpath, char **cmdargs, char **envp)
 {
 	pid_t child_pid;
 	int status;
@@ -20,9 +21,9 @@ int _execute(char *cmdpath, char **cmdargs)
 	}
 	if (child_pid == 0)
 	{
-		if (execve(cmdpath, cmdargs, NULL) == -1)
+		if (execve(cmdpath, cmdargs, envp) == -1)
 		{
-			perror("hsh");
+			perror("Command not found");
 			exit(-1);
 		}
 	}
