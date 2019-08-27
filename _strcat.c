@@ -1,13 +1,12 @@
-#include <string.h>
+#include <holberton.h>
 /**
  *_strcat - compares
  *@dest:first
  *@src:second
- * Return:difrence 
+ *Return:difrence
  */
-}
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, const char *src)
 {
-strcpy(dest + strlen(dest), src);
-return dest;
+_strcpy(dest + _strlen(dest), src);
+return (dest);
 }

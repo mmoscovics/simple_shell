@@ -1,4 +1,4 @@
-#include <string.h>
+#include <holberton.h>
 /**
  *_strcpy - copy string pointed too
  *@dest:destination
