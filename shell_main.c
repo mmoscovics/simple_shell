@@ -12,7 +12,7 @@ int main(int ac, char **av, char **envp)
 {
 	char *input_line, *final_path, *path;
 	char **args, **all_paths;
-	int status;
+	int status, i;
 	(void)ac;
 	(void)av;
 
@@ -39,8 +39,11 @@ int main(int ac, char **av, char **envp)
 		free(input_line);
 		free(args);
 		free(path);
+		for (i = 0; all_paths[i]; i++)
+		{
+			free(all_paths[i]);
+		}
 		free(all_paths);
-		free(final_path);
 	}
 	while (status)
 		;

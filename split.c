@@ -33,7 +33,7 @@ char **split_input(char *input_line)
 
 char **split_path(char *command_tokens, char *path)
 {
-	size_t bufsize = 1024;
+	size_t bufsize = 100;
 	int iter = 0;
 	char *token, **path_tokens, *delims = ":";
 
