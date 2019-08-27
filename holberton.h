@@ -17,7 +17,7 @@
 
 char *read_input(void);
 char **split_input(char *input_line);
-int _execute(char *cmdpath, char **cmdargs);
+int _execute(char *cmdpath, char **cmdargs, char **envp);
 
 char *get_path(char **envp);
 char **split_path(char *command_tokens, char *path);
