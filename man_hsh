@@ -31,7 +31,10 @@ You can use a value of exit status in the shell script to display an error messa
 .SH EXAMPLES 
 Show example of input or output. 
 To print a character:
-
+-rw-rw-r--  1 vagrant vagrant  226 Aug 22 15:08 struc.c
+-rw-rw-r--  1 vagrant vagrant  262 Aug 22 15:05 struc.c~
+-rw-rw-r--  1 vagrant vagrant  418 Aug 21 14:54 test1.c
+-rw-rw-r--  1 vagrant vagrant  220 Aug 21 14:44 test1.c~
    #include "holberton.h"
    _printf("%c", character);
 
