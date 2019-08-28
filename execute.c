@@ -23,7 +23,7 @@ int _execute(char *cmdpath, char **cmdargs, char **envp)
 	{
 		if (execve(cmdpath, cmdargs, envp) == -1)
 		{
-			perror("Command not found");
+			perror("hsh");
 			exit(-1);
 		}
 	}
