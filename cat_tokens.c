@@ -14,8 +14,8 @@ char *cat_tokens(char *path_tokens, char *command_tokens)
 	int bufsize = 1024;
 
 	cmdpath = malloc(bufsize * sizeof(char));
-	strcpy(cmdpath, path_tokens);
-	strcat(cmdpath, slash);
-	strcat(cmdpath, command_tokens);
+	_strcpy(cmdpath, path_tokens);
+	_strcat(cmdpath, slash);
+	_strcat(cmdpath, command_tokens);
 	return (cmdpath);
 }

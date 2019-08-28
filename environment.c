@@ -36,7 +36,7 @@ char *get_path(char **envp)
 		iter++;
 	}
 	if (envp[iter])
-		path = strcpy(path, envp[iter] + iter2);
+		path = _strcpy(path, envp[iter] + iter2);
 	return (path);
 }
 

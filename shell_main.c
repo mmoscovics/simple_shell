@@ -20,7 +20,7 @@ int main(int ac, char **av, char **envp)
 	{
 		write(1, "$ ", 2);
 		input_line = read_input();
-		if (strcmp(input_line, "exit\n") == 0)
+		if (_strcmp(input_line, "exit\n") == 0)
 		{
 			free(input_line);
 			exit(EXIT_SUCCESS);
