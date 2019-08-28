@@ -11,18 +11,30 @@ Pathname expansion shall not fail due to size of a file.
 Input and output redirections have an implementation-defined offset maximum established in open file description.
 .SH OPERANDS
 Following operands shall be supported:
-.TP
+.TP  
 .B
-.SH STDIN
-.SH INPUT FILES
-.SH ENVIRONMENT VALIABLES
-.SH STDOUT
-.SH STDERR
-.SH OUTPUT FILES
-.SH EXIT STATUS
-.SH EXAMPLES
+\-b \" print the -b option in bold.
+.SH STDIN 
+An input stream where data is sent to and read by a program.
+.SH INPUT FILES 
+The basic workflow of any Linux command is that it takes an input and give an output.
+.SH ENVIRONMENT VALIABLES 
+Environmental variables are variables that are defined for the current shell and are inherited by any child shells or processes
+.SH STDOUT 
+Stdout, also known as standard output, is the default file descriptor where a process can write output
+.SH STDERR 
+Is the default file descriptor where a process can write error messages. 
+.SH OUTPUT FILES 
+A computer file that contains data that are the output of a device or program.
+.SH EXIT STATUS 
+You can use a value of exit status in the shell script to display an error message or take some sort of action.
+.SH EXAMPLES 
+Show example of input or output. 
 To print a character:
-
+-rw-rw-r--  1 vagrant vagrant  226 Aug 22 15:08 struc.c
+-rw-rw-r--  1 vagrant vagrant  262 Aug 22 15:05 struc.c~
+-rw-rw-r--  1 vagrant vagrant  418 Aug 21 14:54 test1.c
+-rw-rw-r--  1 vagrant vagrant  220 Aug 21 14:44 test1.c~
    #include "holberton.h"
    _printf("%c", character);
 

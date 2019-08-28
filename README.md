@@ -88,5 +88,32 @@ $
 
 ## example of shell use 
 ```
+<<<<<<< HEAD
 
 ```
+=======
+drwxr-xr-x  4 vagrant vagrant 4096 Aug 27 00:22 .
+drwxr-xr-x 16 vagrant vagrant 4096 Aug 28 02:22 ..
+-rwxrwxr-x  1 vagrant vagrant 8493 Aug 23 15:10 a.out
+-rw-rw-r--  1 vagrant vagrant 1767 Aug 23 18:04 getlin.c
+drwxrwxr-x  8 vagrant vagrant 4096 Aug 28 16:58 .git
+-rw-rw-r--  1 vagrant vagrant    1 Aug 27 00:20 images
+-rw-rw-r--  1 vagrant vagrant 1182 Aug 27 00:20 README.md
+-rw-rw-r--  1 vagrant vagrant  104 Aug 24 17:54 #readmetest.md#
+drwxr-xr-x  3 vagrant vagrant 4096 Aug 27 00:20 shelltest
+-rw-rw-r--  1 vagrant vagrant  168 Aug 26 21:05 simple_
+-rw-rw-r--  1 vagrant vagrant  267 Aug 20 23:08 strcmp.c
+-rw-rw-r--  1 vagrant vagrant  820 Aug 23 17:30 strncmp2.c
+-rw-rw-r--  1 vagrant vagrant  820 Aug 23 16:54 strncmp2.c~
+-rw-rw-r--  1 vagrant vagrant  386 Aug 23 15:09 strncmp.c
+-rw-rw-r--  1 vagrant vagrant  510 Aug 22 22:33 strncmp.c~
+-rw-rw-r--  1 vagrant vagrant  226 Aug 22 15:08 struc.c
+-rw-rw-r--  1 vagrant vagrant  262 Aug 22 15:05 struc.c~
+-rw-rw-r--  1 vagrant vagrant  418 Aug 21 14:54 test1.c
+-rw-rw-r--  1 vagrant vagrant  220 Aug 21 14:44 test1.c~
+-rw-rw-r--  1 vagrant vagrant  563 Aug 21 14:33 test.c
+-rw-rw-r--  1 vagrant vagrant 1504 Aug 20 17:28 testing.c
+
+```
+
+>>>>>>> 74a32f5caed4bd966ca4777fef79882f365526a3

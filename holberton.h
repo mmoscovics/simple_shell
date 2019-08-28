@@ -14,14 +14,14 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <string.h>
-int _strlen(const char *str);
+int _strlen(char *str);
 char *_strcpy(char *dest, char *src);
-char *_strcat(char *dest, const char *src);
-int _strcmp(const char *s1, const char *s2);
+char *_strcat(char *dest, char *src);
+int _strcmp(char *s1, char *s2);
 
 char *read_input(void);
 char **split_input(char *input_line);
-int _execute(char *cmdpath, char **cmdargs);
+int _execute(char *cmdpath, char **cmdargs, char **envp);
 
 char *get_path(char **envp);
 char **split_path(char *command_tokens, char *path);

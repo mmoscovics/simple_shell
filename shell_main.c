@@ -25,17 +25,17 @@ int main(int ac, char **av, char **envp)
 			free(input_line);
 			exit(EXIT_SUCCESS);
 		}
-		printf("1: %s", input_line);
 		args = split_input(input_line);
-		printf("2: %s\n", *args);
+		if (args == NULL || *args == NULL)
+		{
+			free(input_line);
+			free(args);
+			continue;
+		}
 		path = get_path(envp);
-		printf("3: %s\n", path);
 		all_paths = split_path(*args, path);
-		printf("4: %s\n", *all_paths);
 		final_path = found_path(all_paths);
-		printf("5: %s\n", final_path);
-		status = _execute(final_path, args);
-		printf("6: %d\n", status);
+		status = _execute(final_path, args, envp);
 		free(input_line);
 		free(args);
 		free(path);
