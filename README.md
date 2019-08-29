@@ -1,1 +1,1 @@
-## Readme got taken down for patended reson
+## Readme got taken down for patended reason
